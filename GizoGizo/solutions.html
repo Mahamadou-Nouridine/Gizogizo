@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"
+        integrity="sha512-koDUjGvRZrcni2jJFT9I3VRYY0PWNKtr1Wj9U36eLhcFgBm46KV11yTi4p2H3HwUMirxZ+dMpKeUuRjYOFjeDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.css"
+        integrity="sha512-TVNZcv0J8VIKwc9PuINGUaXpAtIvvfc8bO1frc8Xl7N4mWxH8mCCjubLdlhi6xYJKFyZrYEqEXQkoiOvglmtZA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.js"
+        integrity="sha512-LSynsHcISjg2FJcfjq+IqrgsAAdo8A6t35zA/Fys/mZWuaiTS9a8oB5IXFW15oAJF/9KA5OWUx8RwWd9I4RVrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"
+        integrity="sha512-zCHGovd9kHtyOdCLYmXApVFPtXQjZNyjHGU6DKPKR1HnhiSnVc71r1x7bpahdGw7mOKbz6oZ1k7/gbfRNp50ag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="purple " style="position:sticky;">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo" style="margin-left: 50px">GizoGizo</a>
+
+            <a href="#" class="sidenav-trigger " data-target="mobile-nav"><i class="material-icons">menu</i></a>
+
+
+            <ul class="right hide-on-med-and-down" style="margin-right: 50px;">
+                <li><a href="index.html">home</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="sign.html">sign-up</a></li>
+            <li> <a class="waves-effect blue waves-light btn modal-trigger" href="#modal1">Sign In</a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav " id="mobile-nav">
+        <li><a href="index.html">home</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="sign.html">sign-up</a></li>
+            <li> <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Sign In</a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+
+    <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+        <h3>Account Login</h3>
+        <p>Login to access your account dashboard</p>
+        <form>
+            <div class="input-field">
+                <input type="text" placeholder="Email" class="validate">
+            </div><br>
+            <div class="input-field">
+                <input type="password" placeholder="Password" class="validate" data-success="trois">
+            </div><br>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close grey white-text waves-effect waves-green btn-flat"><i class="material-icons"> restart_alt</i> Reset Password</a>
+        <a href="#!" class="modal-close purple white-text waves-effect waves-green btn-flat"><i class="material-icons">lock</i> Agree</a>
+      </div>
+  </div>
+ 
+ 
+ 
+    <div class="row center-align purple white-text" style="margin-top: -22px;">
+        <br>
+        <br><br>
+        <h4>Welcome to GizoGizo</h4>
+        <h1>Cloud Solutions</h1><br><br><br>
+    </div>
+
+
+    <div class="row">
+        <div class="row"style="max-width: 1000px;">
+            <div class="col s12 m6">
+                <h3>What We Do...</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus quibusdam placeat. Excepturi earum, optio dicta distinctio facere vitae, provident reiciendis praesentium repellat eaque minima, exercitationem rem enim dolorem minus!</p>
+            </div>
+            <div class="col s12 m6">
+                <ul class="tabs">
+                    <li class="tab col s4"><a href="#premier">Cloud Hosting</a></li>
+                    <li class="tab col s4"><a href="#deuxieme">Cloud Storage</a></li>
+                    <li class="tab col s4"><a href="#troixieme">Cloud Database</a></li>
+                </ul>
+                <div id="premier">
+                    <h5>Cloud Hosting</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora consequatur doloribus sint fugit optio tenetur neque maiores! A tempora distinctio voluptatibus. Voluptatem dolorem ea dolores qui quisquam numquam ducimus a.</p>
+                </div>
+                <div id="deuxieme">
+                    <h5>Cloud storage</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora consequatur doloribus sint fugit optio tenetur neque maiores! A tempora distinctio voluptatibus. Voluptatem dolorem ea dolores qui quisquam numquam ducimus a.</p>
+                </div>
+                <div id="troixieme">
+                    <h5>Cloud Database</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora consequatur doloribus sint fugit optio tenetur neque maiores! A tempora distinctio voluptatibus. Voluptatem dolorem ea dolores qui quisquam numquam ducimus a.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row center-align grey lighten-2" style="margin-bottom:-20px">
+        <h3 class="purple-text center-align"> Powerful & Innovative</h3>
+        <p class="center-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae non sed voluptatum dolore! Architecto laborum</p>
+        <div class="row" style="max-width:1000px ;">
+            <div class="col s12 m4 left-align">
+                <h5><i class="material-icons">person</i> Unlimited Users</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias possimus neque, harum quidem voluptatibus tenetur amet quos iure, cupiditate unde expedita eligendi, sapiente assumenda voluptate! Eum unde assumenda animi?</p>
+            </div>
+            <div class="col s12 m4 left-align">
+                <h5><i class="fa-solid fa-database"></i> Scalable Data</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias possimus neque, harum quidem voluptatibus tenetur amet quos iure, cupiditate unde expedita eligendi, sapiente assumenda voluptate! Eum unde assumenda animi?</p>
+            </div>
+            <div class="col s12 m4 left-align">
+                <h5><i class="fa-solid fa-chart-line"></i> Data Analytics</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias possimus neque, harum quidem voluptatibus tenetur amet quos iure, cupiditate unde expedita eligendi, sapiente assumenda voluptate! Eum unde assumenda animi?</p>
+            </div>
+        </div>
+        <div class="row" style="max-width:1000px ;">
+            <div class="col s12 m4 left-align">
+                <h5><i class="material-icons">help_outline</i> Github Integration</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias possimus neque, harum quidem voluptatibus tenetur amet quos iure, cupiditate unde expedita eligendi, sapiente assumenda voluptate! Eum unde assumenda animi?</p>
+            </div>
+            <div class="col s12 m4 left-align">
+                <h5><i class="material-icons">add</i> Add-ons</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias possimus neque, harum quidem voluptatibus tenetur amet quos iure, cupiditate unde expedita eligendi, sapiente assumenda voluptate! Eum unde assumenda animi?</p>
+            </div>
+            <div class="col s12 m4 left-align">
+                <h5><i class="fa-solid fa-hard-drive"></i> Smart Storage</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates alias possimus neque, harum quidem voluptatibus tenetur amet quos iure, cupiditate unde expedita eligendi, sapiente assumenda voluptate! Eum unde assumenda animi?</p>
+            </div>
+        </div>
+        <a href="sign.html" class="btn grey ">Sign Up For Free</a>
+        <h4>Have a question? Contact our sales team</h4>
+        <h6>sales@gizogizo.com</h6><br><br>
+    </div>
+
+
+
+    <div class="page-footer purple">
+        <div class="row" style="max-width: 1000px;">
+            <div class="col s12 m8">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, temporibus. Doloribus</p><br>
+            </div>
+            <div class="col s12 m4 left-align">
+                <h4>Links</h4>
+                <ul>
+                    <li>Home1</li>
+                    <li>Solutions</li>
+                    <li>Sign-up</li>
+                </ul>
+                <br>
+            </div>
+        </div>
+        <div class="footer-copyrigh">
+            <div class="row">
+                <div class="col s12 m10">
+                    <p>GizoGizo © 2019</p><br>
+                </div>
+                <div class="col s12 m2 ">
+                    <p>Terms and Conditions</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+    
+</body>
+
+
+
+<script>
+            $(document).ready(function () {
+        $('.sidenav').sidenav();
+    });
+    $(document).ready(function(){
+    $('.tabs').tabs();
+  });
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+</script>
+</html>

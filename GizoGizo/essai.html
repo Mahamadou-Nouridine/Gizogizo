@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="all.min.css">
+        <link rel="stylesheet" href="style.css">
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"
+            integrity="sha512-koDUjGvRZrcni2jJFT9I3VRYY0PWNKtr1Wj9U36eLhcFgBm46KV11yTi4p2H3HwUMirxZ+dMpKeUuRjYOFjeDQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.css"
+            integrity="sha512-TVNZcv0J8VIKwc9PuINGUaXpAtIvvfc8bO1frc8Xl7N4mWxH8mCCjubLdlhi6xYJKFyZrYEqEXQkoiOvglmtZA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.js"
+            integrity="sha512-LSynsHcISjg2FJcfjq+IqrgsAAdo8A6t35zA/Fys/mZWuaiTS9a8oB5IXFW15oAJF/9KA5OWUx8RwWd9I4RVrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"
+            integrity="sha512-zCHGovd9kHtyOdCLYmXApVFPtXQjZNyjHGU6DKPKR1HnhiSnVc71r1x7bpahdGw7mOKbz6oZ1k7/gbfRNp50ag=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>SIgn-up</title>
+    </head>
+<body>
+    <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+        <h3>Account Login</h3>
+        <p>Login to access your account dashboard</p>
+        <form>
+            <div class="input-field">
+                <input type="text" placeholder="Email" class="validate">
+            </div><br>
+            <div class="input-field">
+                <input type="password" placeholder="Password" class="validate">
+            </div><br>
+            <div class="modal-footer">
+                <a href="#" class="modal-close btn-flat"></a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+
+<script>
+    $(document).ready(function(){
+    $('.modal').modal();
+  });
+</script>
+</html>

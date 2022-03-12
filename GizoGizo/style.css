@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+.overlay{
+  
+
+        color: white;
+        font: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background: linear-gradient(to top, #090327ba, #9907facc), url('https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') no-repeat top center;
+        background-size: cover;
+      }
+      .centered{
+      
+        color: white;
+        font: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background: linear-gradient(to top, #090327ba, #9907facc), url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') no-repeat top center;
+        background-size: cover;
+      }
+
+@media screen and (max-width:720px) {
+   body{
+    
+   }
+
+}

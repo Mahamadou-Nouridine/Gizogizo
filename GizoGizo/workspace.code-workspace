@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../BiziBizi"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GizoGizo"
+	}
+}
