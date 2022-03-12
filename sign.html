@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"
+        integrity="sha512-koDUjGvRZrcni2jJFT9I3VRYY0PWNKtr1Wj9U36eLhcFgBm46KV11yTi4p2H3HwUMirxZ+dMpKeUuRjYOFjeDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.css"
+        integrity="sha512-TVNZcv0J8VIKwc9PuINGUaXpAtIvvfc8bO1frc8Xl7N4mWxH8mCCjubLdlhi6xYJKFyZrYEqEXQkoiOvglmtZA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.js"
+        integrity="sha512-LSynsHcISjg2FJcfjq+IqrgsAAdo8A6t35zA/Fys/mZWuaiTS9a8oB5IXFW15oAJF/9KA5OWUx8RwWd9I4RVrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"
+        integrity="sha512-zCHGovd9kHtyOdCLYmXApVFPtXQjZNyjHGU6DKPKR1HnhiSnVc71r1x7bpahdGw7mOKbz6oZ1k7/gbfRNp50ag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>SIgn-up</title>
+</head>
+<body>
+    <nav class="purple " style="position:sticky;">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo" style="margin-left: 50px">GizoGizo</a>
+
+            <a href="#" class="sidenav-trigger " data-target="mobile-nav"><i class="material-icons">menu</i></a>
+
+
+            <ul class="right hide-on-med-and-down" style="margin-right: 50px;">
+                <li><a href="index.html">home</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="sign.html">sign-up</a></li>
+            <li> <a class="waves-effect blue waves-light btn modal-trigger" href="#modal1">Sign In</a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav " id="mobile-nav">
+        <li><a href="index.html">home</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="sign.html">sign-up</a></li>
+            <li> <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Sign In</a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+
+    <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+        <h3>Account Login</h3>
+        <p>Login to access your account dashboard</p>
+        <form>
+            <div class="input-field">
+                <input type="text" placeholder="Email" class="validate">
+            </div><br>
+            <div class="input-field">
+                <input type="password" placeholder="Password" class="validate" data-success="trois">
+            </div><br>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close grey white-text waves-effect waves-green btn-flat"><i class="material-icons"> restart_alt</i> Reset Password</a>
+        <a href="#!" class="modal-close purple white-text waves-effect waves-green btn-flat"><i class="material-icons">lock</i> Agree</a>
+      </div>
+  </div>
+ 
+ 
+ 
+    <div class="row center-align purple white-text" style="margin-top: -22px;">
+        <br>
+        <br><br>
+        <h4>Welcome to GizoGizo</h4>
+        <h1>Creat an Account</h1><br><br><br>
+    </div>
+
+
+    <div class="row">
+        <div class="row" style="max-width: 1000px;">
+            <div class="col s12 m6">
+                <h4>Get a free account</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsum labore voluptatibus tempora quis. Consequatur iusto soluta ad. </p>
+                <h4>Download the free software</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsum labore voluptatibus tempora quis. Consequatur iusto soluta ad. </p>
+                <h4>Push to the platform</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsum labore voluptatibus tempora quis. Consequatur iusto soluta ad. </p>
+            </div>
+            <div class="col s12 m6">
+                <form>
+                    <div class="input-field">
+                        <input type="text" placeholder="First Name" class="validate">
+                    </div><br>
+                    <div class="input-field">
+                        <input type="text" placeholder="Last Name" class="validate">
+                    </div><br>
+                    <div class="input-field">
+                        <input type="password" placeholder="Password" class="validate">
+                    </div><br>
+                    <div class="input-field">
+                        <input type="text" placeholder="Company" class="validate">
+                    </div>
+                    <div class="input-field col s12">
+                        <select>
+                          <option value="" disabled selected>Select Role</option>
+                          <option value="1">Professional Devemlopper
+                          </option>
+                          <option value="2">Hobbyist</option>
+                          <option value="3">Student</option>
+                          <option value="4">Manager</option>
+                          <option value="5">Other</option>
+                        </select>
+                        <label>Role</label>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-footer purple">
+        <div class="row" style="max-width: 1000px;">
+            <div class="col s12 m8">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, temporibus. Doloribus</p><br>
+            </div>
+            <div class="col s12 m4 left-align">
+                <h4>Links</h4>
+                <ul>
+                    <li>Home1</li>
+                    <li>Solutions</li>
+                    <li>Sign-up</li>
+                </ul>
+                <br>
+            </div>
+        </div>
+        <div class="footer-copyrigh">
+            <div class="row">
+                <div class="col s12 m10">
+                    <p>GizoGizo © 2019</p><br>
+                </div>
+                <div class="col s12 m2 ">
+                    <p>Terms and Conditions</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+    
+</body>
+
+
+
+<script>
+            $(document).ready(function () {
+        $('.sidenav').sidenav();
+    });
+    $(document).ready(function(){
+    $('.tabs').tabs();
+  });
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
+
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+ 
+</script>
+</html>
